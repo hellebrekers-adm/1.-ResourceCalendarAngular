@@ -23,7 +23,7 @@ export class CalendarComponent implements AfterViewInit, OnInit {
   calendar!: DayPilotCalendarComponent;
 
   events: any[] = [];
-  backgroundUrl: string = "https://h2909571.stratoserver.net/HellebrekerPackages/ResourceCalendar/External/images/hellebrekers-logo.png";
+  backgroundUrl: string = "https://h2909571.stratoserver.net/HellebrekerPackages/1.ResourceCalendarExternalPackages/images/hellebrekers-logo.png";
 
   config: DayPilot.CalendarConfig = {
     viewType: "Resources",
